@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/comuDB?useSSL=false&useUnicode=true&characterEncoding=utf8&allowPublicKeyRetrieval=true
+    username: comu
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+upload:
+  image:
+    location: ${upload.image.url}
